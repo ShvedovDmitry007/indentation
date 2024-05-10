@@ -1,0 +1,26 @@
+.last-element__description:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.last-element__figure {
+  margin-bottom: 30px;
+
+}
+
+.last-element__image {
+  margin: 0 auto;
+}
+
+.top-figure__image:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.central-figure__text {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+.last-element__image_margin-bottom {
+  margin-bottom: 30px;
+}

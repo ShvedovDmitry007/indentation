@@ -1,0 +1,19 @@
+.indentation {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.indentation__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.indentation__description {
+  margin-bottom: 25px;
+}
+
+.indentation__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+

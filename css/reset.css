@@ -1,0 +1,20 @@
+.reset__text {
+  margin-bottom: 30px;
+}
+
+.reset__image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.reset__image:last-child {
+  margin-bottom: 0;
+}
+
+.reset__figure {
+  margin-bottom: 30px;
+}
+
+.reset-figure__image {
+  margin-bottom: 0 auto;
+}

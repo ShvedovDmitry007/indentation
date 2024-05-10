@@ -1,0 +1,30 @@
+.result {
+  padding-bottom: 50px;
+}
+
+.result__container {
+  padding: 0 150px;
+}
+
+.result__block {
+  border-radius: 10px;
+  padding: 16px 45px 34px;
+  background-color: #f1f1f1;
+}
+
+.result__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.result__list {
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+.result__list li:before {
+  content:  "—";
+  position: relative;
+  left: -5px;
+}

@@ -1,0 +1,33 @@
+.sequence-rule__content {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sequence-rule__content:last-child {
+  margin-bottom: 0;
+}
+
+
+.top-content {
+  position: absolute;
+  max-width: 490px;
+  top: 0;
+  right: 0;
+}
+
+.bottom-content {
+  margin-right: 40px;
+  max-width: 480px;
+}
+
+.sequence-rule__image_absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.sequence-rule__text:not(:last-child) {
+  margin-bottom: 30px;
+
+}
