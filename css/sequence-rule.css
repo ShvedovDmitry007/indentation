@@ -1,5 +1,17 @@
+.sequence-rule__image {
+  display: inline-block;
+}
+
+.sequence-rule__image:not(:last-child) {
+  margin-right: 30px;
+}
+
+.sequence-rule__text-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .sequence-rule__content {
-  position: relative;
   margin-bottom: 30px;
 }
 
@@ -7,27 +19,16 @@
   margin-bottom: 0;
 }
 
-
 .top-content {
-  position: absolute;
-  max-width: 490px;
-  top: 0;
-  right: 0;
-}
-
-.bottom-content {
-  margin-right: 40px;
+  display: inline-block;
   max-width: 480px;
 }
 
-.sequence-rule__image_absolute {
-  position: absolute;
-  top: 0;
-  right: 0;
+.bottom-content {
+  margin-right: 30px;
+  max-width: 480px;
 }
-
 
 .sequence-rule__text:not(:last-child) {
   margin-bottom: 30px;
-
 }
